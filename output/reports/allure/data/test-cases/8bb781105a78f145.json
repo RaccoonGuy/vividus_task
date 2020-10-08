@@ -1,0 +1,624 @@
+{
+  "uid" : "8bb781105a78f145",
+  "name" : "Adding a task in table using expressions",
+  "historyId" : "[batch: batch-1][stories-chain: file:/D:/git_vividus/vividus-starter/bin/main/story/web/trello.story][scenario: Adding a task in table using expressions]",
+  "time" : {
+    "start" : 1602140077909,
+    "stop" : 1602140084846,
+    "duration" : 6937
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the main application page",
+      "time" : {
+        "start" : 1602140077909,
+        "stop" : 1602140081923,
+        "duration" : 4014
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Loading: https://trello.com/\r\n",
+        "time" : {
+          "start" : 1602140077909,
+          "stop" : 1602140077909,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Refreshing the current page\r\n",
+        "time" : {
+          "start" : 1602140078683,
+          "stop" : 1602140078683,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on element located `By.xpath(//ul[contains(.,'Create new board')]//div[text()=\"vividus\"])`",
+      "time" : {
+        "start" : 1602140081923,
+        "stop" : 1602140082670,
+        "duration" : 747
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //ul[contains(normalize-space(.),'Create new board')]//div[text()[normalize-space()=\"vividus\"]] is equal to 1\r\n",
+        "time" : {
+          "start" : 1602140081933,
+          "stop" : 1602140081933,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: An element with attributes XPath: '//ul[contains(normalize-space(.),'Create new board')]//div[text()[normalize-space()=\"vividus\"]]'; Visibility: VISIBLE; exists\r\n",
+        "time" : {
+          "start" : 1602140081946,
+          "stop" : 1602140081946,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: An element with attributes: ' XPath: '//ul[contains(normalize-space(.),'Create new board')]//div[text()[normalize-space()=\"vividus\"]]'; Visibility: VISIBLE;' exists\r\n",
+        "time" : {
+          "start" : 1602140081946,
+          "stop" : 1602140081946,
+          "duration" : 0
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I initialize the ｟STORY｠ variable `task` with value `#{generate(Witcher.quote)}`",
+      "time" : {
+        "start" : 1602140082670,
+        "stop" : 1602140083315,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Saving a value 'No Lollygagin'!' into the 'STORY' variable 'task'\r\n",
+        "time" : {
+          "start" : 1602140083315,
+          "stop" : 1602140083315,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on all elements located `By.xpath(//span[@class=\"placeholder\"])`",
+      "time" : {
+        "start" : 1602140083316,
+        "stop" : 1602140084020,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //span[normalize-space(@class)=\"placeholder\"] is equal to 1\r\n",
+        "time" : {
+          "start" : 1602140083326,
+          "stop" : 1602140083326,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: The elements to click number of elements is a value greater than <0>\r\n",
+        "time" : {
+          "start" : 1602140083338,
+          "stop" : 1602140083338,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: There is at least one element with attributes ' XPath: '//span[normalize-space(@class)=\"placeholder\"]'; Visibility: VISIBLE;' number of elements is a value greater than <0>\r\n",
+        "time" : {
+          "start" : 1602140083338,
+          "stop" : 1602140083338,
+          "duration" : 0
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I enter `${task}` in field located `By.xpath(//input[@name='name'])`",
+      "time" : {
+        "start" : 1602140084020,
+        "stop" : 1602140084097,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //input[normalize-space(@name)='name'] is equal to 1\r\n",
+        "time" : {
+          "start" : 1602140084030,
+          "stop" : 1602140084030,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: An element with attributes XPath: '//input[normalize-space(@name)='name']'; Visibility: VISIBLE; exists\r\n",
+        "time" : {
+          "start" : 1602140084041,
+          "stop" : 1602140084041,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: An element with attributes: ' XPath: '//input[normalize-space(@name)='name']'; Visibility: VISIBLE;' exists\r\n",
+        "time" : {
+          "start" : 1602140084041,
+          "stop" : 1602140084041,
+          "duration" : 0
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Entering text \"No Lollygagin'!\" in element\r\n",
+        "time" : {
+          "start" : 1602140084064,
+          "stop" : 1602140084064,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on all elements located `By.xpath(//input[@value=\"Add List\"])`",
+      "time" : {
+        "start" : 1602140084097,
+        "stop" : 1602140084817,
+        "duration" : 720
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //input[normalize-space(@value)=\"Add List\"] is equal to 1\r\n",
+        "time" : {
+          "start" : 1602140084107,
+          "stop" : 1602140084107,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: The elements to click number of elements is a value greater than <0>\r\n",
+        "time" : {
+          "start" : 1602140084118,
+          "stop" : 1602140084118,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: There is at least one element with attributes ' XPath: '//input[normalize-space(@value)=\"Add List\"]'; Visibility: VISIBLE;' number of elements is a value greater than <0>\r\n",
+        "time" : {
+          "start" : 1602140084118,
+          "stop" : 1602140084118,
+          "duration" : 0
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then field located `By.xpath(//textarea[text()=\"${task}\"])` exists",
+      "time" : {
+        "start" : 1602140084817,
+        "stop" : 1602140084843,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //textarea[text()[normalize-space()=\"No Lollygagin'!\"]] is equal to 1\r\n",
+        "time" : {
+          "start" : 1602140084827,
+          "stop" : 1602140084827,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: A field with attributes XPath: '//textarea[text()[normalize-space()=\"No Lollygagin'!\"]]'; Visibility: VISIBLE; exists\r\n",
+        "time" : {
+          "start" : 1602140084842,
+          "stop" : 1602140084842,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Pass: An element with attributes: ' XPath: '//textarea[text()[normalize-space()=\"No Lollygagin'!\"]]'; Visibility: VISIBLE;' exists\r\n",
+        "time" : {
+          "start" : 1602140084843,
+          "stop" : 1602140084843,
+          "duration" : 0
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "@AfterScenario",
+      "time" : {
+        "start" : 1602140084845,
+        "stop" : 1602140084846,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Passed verification: 5 of 5 assertions passed.\r\n",
+        "time" : {
+          "start" : 1602140084845,
+          "stop" : 1602140084845,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "batch-1"
+  }, {
+    "name" : "suite",
+    "value" : "trello"
+  }, {
+    "name" : "story",
+    "value" : "trello"
+  }, {
+    "name" : "host",
+    "value" : "EPBYMINW0BD2"
+  }, {
+    "name" : "thread",
+    "value" : "5436@EPBYMINW0BD2.batch-1-thread-1(37)"
+  }, {
+    "name" : "framework",
+    "value" : "Vividus"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "badf46eec62d7ee7",
+        "status" : "broken",
+        "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '100.64.100.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 64427e1f75162a7f0e26850939812f9f",
+        "time" : {
+          "start" : 1602139288976,
+          "stop" : 1602139291677,
+          "duration" : 2701
+        }
+      }, {
+        "uid" : "4a4af444d06acedf",
+        "status" : "broken",
+        "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '100.64.100.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5e17a5baf7f0d27b952eac7f74acba53",
+        "time" : {
+          "start" : 1602139161278,
+          "stop" : 1602139161927,
+          "duration" : 649
+        }
+      }, {
+        "uid" : "e219c7b26702ed39",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//span[normalize-space(@class)=\"board-tile-fade\"]'; Visibility: VISIBLE; [Expected: number of elements is a value equal to <1> Actual: <5>]\r\n2) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n3) An element with attributes XPath: '//input[normalize-space(@name)='name']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n4) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n5) A field with attributes XPath: '//textarea[text()[normalize-space()=\"You get what you get and be happy with it\"]]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602138975143,
+          "stop" : 1602138984648,
+          "duration" : 9505
+        }
+      }, {
+        "uid" : "41ffaf2ec23c854f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602077708955,
+          "stop" : 1602077716739,
+          "duration" : 7784
+        }
+      }, {
+        "uid" : "c269072ae152154e",
+        "status" : "failed",
+        "statusDetails" : "1) A field with attributes XPath: '//h2[text()[normalize-space()=\"I'll stick me boot so far up yer arse your tongue'll taste like wench twat\"]]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602077406678,
+          "stop" : 1602077415150,
+          "duration" : 8472
+        }
+      }, {
+        "uid" : "99c562e1760aefb",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '/input[normalize-space(@name)=\"name\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) A field with attributes XPath: '//h2[text()[normalize-space()=\"Finish all your business before you die. Bid loved ones farewell. Write your will. Apologize to those you’ve wronged. Otherwise, you’ll never truly leave this world.\"]]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602077150095,
+          "stop" : 1602077160545,
+          "duration" : 10450
+        }
+      }, {
+        "uid" : "9cfa3162af63d8e3",
+        "status" : "failed",
+        "statusDetails" : "1) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //h2[text()[normalize-space()='No Lollygagin']!']. Error: invalid selector: Unable to locate an element with the xpath expression //h2[text()[normalize-space()='No Lollygagin']!'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h2[text()[normalize-space()='No Lollygagin']!']' is not a valid XPath expression.\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '192.168.42.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b5ae713a61ffb294db43dbf4877cba62\n*** Element info: {Using=xpath, value=//h2[text()[normalize-space()='No Lollygagin']!']}\r\n2) A field with attributes XPath: '//h2[text()[normalize-space()='No Lollygagin']!']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602076910032,
+          "stop" : 1602076919947,
+          "duration" : 9915
+        }
+      }, {
+        "uid" : "b56112820cbf3c39",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//span[normalize-space(@name)=\"name\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) A field with attributes XPath: '//h2[text()[normalize-space()='Damn, Eskel... you got an hourglass figure']]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602076781299,
+          "stop" : 1602076791010,
+          "duration" : 9711
+        }
+      }, {
+        "uid" : "66b7ef1c8f5fbb05",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//span[normalize-space(@class)=\"board-tile-fade\"]'; Visibility: VISIBLE; [Expected: number of elements is a value equal to <1> Actual: <2>]\r\n2) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n3) An element with attributes XPath: '//span[normalize-space(@name)=\"name\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n4) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n5) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //h2[text()[normalize-space()='I']ll stick me boot so far up yer arse your tongue'll taste like wench twat']. Error: invalid selector: Unable to locate an element with the xpath expression //h2[text()[normalize-space()='I']ll stick me boot so far up yer arse your tongue'll taste like wench twat'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h2[text()[normalize-space()='I']ll stick me boot so far up yer arse your tongue'll taste like wench twat']' is not a valid XPath expression.\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '192.168.42.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 4c762ea136822351184113c921f9d40e\n*** Element info: {Using=xpath, value=//h2[text()[normalize-space()='I']ll stick me boot so far up yer arse your tongue'll taste like wench twat']}\r\n6) A field with attributes XPath: '//h2[text()[normalize-space()='I']ll stick me boot so far up yer arse your tongue'll taste like wench twat']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602076700597,
+          "stop" : 1602076709667,
+          "duration" : 9070
+        }
+      }, {
+        "uid" : "5a2dfa4618777a65",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//span[normalize-space(@class)=\"board-tile-fade\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n3) An element with attributes XPath: '//span[normalize-space(@name)=\"name\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n4) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n5) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //h2[text()[normalize-space()='No Lollygagin']!']. Error: invalid selector: Unable to locate an element with the xpath expression //h2[text()[normalize-space()='No Lollygagin']!'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h2[text()[normalize-space()='No Lollygagin']!']' is not a valid XPath expression.\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '192.168.42.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8fa4aa32201a9402d28098d154db4320\n*** Element info: {Using=xpath, value=//h2[text()[normalize-space()='No Lollygagin']!']}\r\n6) A field with attributes XPath: '//h2[text()[normalize-space()='No Lollygagin']!']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602076605762,
+          "stop" : 1602076614024,
+          "duration" : 8262
+        }
+      }, {
+        "uid" : "448f23b0158fea31",
+        "status" : "broken",
+        "statusDetails" : "chrome not reachable\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '192.168.42.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 95d8032ebfd8cf1663a83c01c0a9ef58",
+        "time" : {
+          "start" : 1602076577853,
+          "stop" : 1602076590537,
+          "duration" : 12684
+        }
+      }, {
+        "uid" : "dca8059bcc547e8e",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//span[normalize-space(@name)=\"name\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n3) A field with attributes XPath: '//h2[text()[normalize-space()='Oh year... the Elder Blood can be fiery']]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602076374833,
+          "stop" : 1602076383959,
+          "duration" : 9126
+        }
+      }, {
+        "uid" : "19e3d3af05c613bc",
+        "status" : "failed",
+        "statusDetails" : "1) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //span[normalize-space(@class)=\"placeholder\"\"]. Error: invalid selector: Unable to locate an element with the xpath expression //span[normalize-space(@class)=\"placeholder\"\"] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[normalize-space(@class)=\"placeholder\"\"]' is not a valid XPath expression.\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '192.168.42.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 23b7d49b42dfca28f55d1c1eaab65c9c\n*** Element info: {Using=xpath, value=//span[normalize-space(@class)=\"placeholder\"\"]}\r\n2) An element with attributes XPath: '//span[normalize-space(@class)=\"placeholder\"\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n3) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n4) A field with attributes XPath: '//h2[text()[normalize-space()='Damn, Eskel... you got an hourglass figure']]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602076201427,
+          "stop" : 1602076212850,
+          "duration" : 11423
+        }
+      }, {
+        "uid" : "adce51f4e9f01a24",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//span[normalize-space(@class)=\"board-tile-fade\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //span[normalize-space(@class)=\"placeholder\"\"]. Error: invalid selector: Unable to locate an element with the xpath expression //span[normalize-space(@class)=\"placeholder\"\"] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[normalize-space(@class)=\"placeholder\"\"]' is not a valid XPath expression.\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '192.168.42.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1a179189468d6d9cbbac2d6e3ec3f1e3\n*** Element info: {Using=xpath, value=//span[normalize-space(@class)=\"placeholder\"\"]}\r\n3) An element with attributes XPath: '//span[normalize-space(@class)=\"placeholder\"\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n4) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n5) A field with attributes XPath: '//h2[text()[normalize-space()='You get what you get and be happy with it']]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602075945782,
+          "stop" : 1602075954216,
+          "duration" : 8434
+        }
+      }, {
+        "uid" : "ca74c232b7769191",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//span[normalize-space(@class)=\"board-tile-fade\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) The elements to click [Expected: number of elements is a value greater than <0> Actual: <0>]\r\n3) A field with attributes XPath: '//h2[text()[normalize-space()='You get what you get and be happy with it']]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1602075553112,
+          "stop" : 1602075559879,
+          "duration" : 6767
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8bb781105a78f145.json",
+  "parameterValues" : [ ]
+}

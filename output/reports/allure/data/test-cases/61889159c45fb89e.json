@@ -1,0 +1,384 @@
+{
+  "uid" : "61889159c45fb89e",
+  "name" : "GUI Visual Testing [4]",
+  "historyId" : "[batch: batch-1][stories-chain: file:/D:/git_vividus/vividus-starter/bin/main/story/web/trello.story][scenario: GUI Visual Testing [4]]",
+  "time" : {
+    "start" : 1602140039169,
+    "stop" : 1602140044714,
+    "duration" : 5545
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the main application page",
+      "time" : {
+        "start" : 1602140039169,
+        "stop" : 1602140042945,
+        "duration" : 3776
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Loading: https://trello.com/\r\n",
+        "time" : {
+          "start" : 1602140039170,
+          "stop" : 1602140039170,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Refreshing the current page\r\n",
+        "time" : {
+          "start" : 1602140039850,
+          "stop" : 1602140039850,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I go to the relative URL '｟/senchy｠'",
+      "time" : {
+        "start" : 1602140042945,
+        "stop" : 1602140043555,
+        "duration" : 610
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Loading: https://trello.com/senchy\r\n",
+        "time" : {
+          "start" : 1602140042952,
+          "stop" : 1602140042952,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I ｟COMPARE_AGAINST｠ baseline with `｟Profile_page_baseline｠`",
+      "time" : {
+        "start" : 1602140043555,
+        "stop" : 1602140044713,
+        "duration" : 1158
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Pass: Visual check passed [The condition is true]\r\n",
+        "time" : {
+          "start" : 1602140044711,
+          "stop" : 1602140044711,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "545c33b6de938b83",
+        "name" : "Visual comparison",
+        "source" : "545c33b6de938b83.html",
+        "type" : "text/html",
+        "size" : 209647
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "@AfterScenario",
+      "time" : {
+        "start" : 1602140044714,
+        "stop" : 1602140044714,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Passed verification: 1 of 1 assertions passed.\r\n",
+        "time" : {
+          "start" : 1602140044714,
+          "stop" : 1602140044714,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "batch-1"
+  }, {
+    "name" : "suite",
+    "value" : "trello"
+  }, {
+    "name" : "story",
+    "value" : "trello"
+  }, {
+    "name" : "host",
+    "value" : "EPBYMINW0BD2"
+  }, {
+    "name" : "thread",
+    "value" : "5436@EPBYMINW0BD2.batch-1-thread-1(37)"
+  }, {
+    "name" : "framework",
+    "value" : "Vividus"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "URL_path",
+    "value" : "/senchy"
+  }, {
+    "name" : "baseline_img",
+    "value" : "Profile_page_baseline"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 30
+      },
+      "items" : [ {
+        "uid" : "9583468a0a4de927",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602139249919,
+          "stop" : 1602139255324,
+          "duration" : 5405
+        }
+      }, {
+        "uid" : "c0343bb3047503a6",
+        "status" : "broken",
+        "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYMINW0BD2', ip: '100.64.100.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\ILYA_S~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5e17a5baf7f0d27b952eac7f74acba53",
+        "time" : {
+          "start" : 1602139160938,
+          "stop" : 1602139160948,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "90b8b69891546d31",
+        "status" : "failed",
+        "statusDetails" : "1) Visual check passed [The condition is false]",
+        "time" : {
+          "start" : 1602138936747,
+          "stop" : 1602138942383,
+          "duration" : 5636
+        }
+      }, {
+        "uid" : "d01b674424f12e8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602077690205,
+          "stop" : 1602077696281,
+          "duration" : 6076
+        }
+      }, {
+        "uid" : "580863ba617ab54a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602077384186,
+          "stop" : 1602077389904,
+          "duration" : 5718
+        }
+      }, {
+        "uid" : "3ba7f7a33687bfc",
+        "status" : "failed",
+        "statusDetails" : "1) Visual check passed [The condition is false]",
+        "time" : {
+          "start" : 1602077125037,
+          "stop" : 1602077131627,
+          "duration" : 6590
+        }
+      }, {
+        "uid" : "696f2aff4ff79133",
+        "status" : "failed",
+        "statusDetails" : "1) Visual check passed [The condition is false]",
+        "time" : {
+          "start" : 1602076172784,
+          "stop" : 1602076184784,
+          "duration" : 12000
+        }
+      }, {
+        "uid" : "28dc3b2b3f2db98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602075924153,
+          "stop" : 1602075928319,
+          "duration" : 4166
+        }
+      }, {
+        "uid" : "3ef44ee1fc6596d8",
+        "status" : "failed",
+        "statusDetails" : "1) Visual check passed [The condition is false]",
+        "time" : {
+          "start" : 1602075530688,
+          "stop" : 1602075536385,
+          "duration" : 5697
+        }
+      }, {
+        "uid" : "29bf7406629daa1",
+        "status" : "failed",
+        "statusDetails" : "1) Visual check passed [The condition is false]",
+        "time" : {
+          "start" : 1602057947790,
+          "stop" : 1602057953769,
+          "duration" : 5979
+        }
+      }, {
+        "uid" : "c6e20df0246b021b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990908361,
+          "stop" : 1601990913747,
+          "duration" : 5386
+        }
+      }, {
+        "uid" : "66563f1ed40c3449",
+        "status" : "failed",
+        "statusDetails" : "1) Visual check passed [The condition is false]",
+        "time" : {
+          "start" : 1601990037944,
+          "stop" : 1601990046088,
+          "duration" : 8144
+        }
+      }, {
+        "uid" : "885d8bbf934e48b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601988187052,
+          "stop" : 1601988193217,
+          "duration" : 6165
+        }
+      }, {
+        "uid" : "bbd34afcf952fc1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601988085457,
+          "stop" : 1601988091028,
+          "duration" : 5571
+        }
+      }, {
+        "uid" : "9399fe6f9a7d4a67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601987882932,
+          "stop" : 1601987888840,
+          "duration" : 5908
+        }
+      }, {
+        "uid" : "61cbab0d87325f4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601987780288,
+          "stop" : 1601987785844,
+          "duration" : 5556
+        }
+      }, {
+        "uid" : "5c9887a60bb9a939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601987647039,
+          "stop" : 1601987652590,
+          "duration" : 5551
+        }
+      }, {
+        "uid" : "f27a3f6f1935280",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601987258037,
+          "stop" : 1601987264052,
+          "duration" : 6015
+        }
+      }, {
+        "uid" : "c6ecf9a081c2df3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601986788821,
+          "stop" : 1601986794857,
+          "duration" : 6036
+        }
+      }, {
+        "uid" : "5d6e9f978dba5cfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601986618003,
+          "stop" : 1601986623615,
+          "duration" : 5612
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "61889159c45fb89e.json",
+  "parameterValues" : [ "/senchy", "Profile_page_baseline" ]
+}

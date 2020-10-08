@@ -1,0 +1,199 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "batch-1",
+    "children" : [ {
+      "name" : "trello",
+      "children" : [ {
+        "name" : "Given Story: PreCondition",
+        "children" : [ {
+          "name" : "Log In",
+          "uid" : "5557e5fb303b2715",
+          "parentUid" : "b5dd41e925d95bb0c033aab820f381b1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602139982617,
+            "stop" : 1602140009712,
+            "duration" : 27095
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "API for vividus",
+          "uid" : "781754b323e1bb88",
+          "parentUid" : "b5dd41e925d95bb0c033aab820f381b1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602140009724,
+            "stop" : 1602140017067,
+            "duration" : 7343
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b5dd41e925d95bb0c033aab820f381b1"
+      }, {
+        "name" : "GUI Visual Testing [1]",
+        "uid" : "1c64eb0f19ca83e4",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140017071,
+          "stop" : 1602140022185,
+          "duration" : 5114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "/senchy/boards", "Boards_page_baseline" ]
+      }, {
+        "name" : "GUI Visual Testing [2]",
+        "uid" : "7272a9aedf37cf41",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140022187,
+          "stop" : 1602140027611,
+          "duration" : 5424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "/senchy/cards", "Cards_page_baseline" ]
+      }, {
+        "name" : "GUI Visual Testing [3]",
+        "uid" : "e5d210093098fb06",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140027612,
+          "stop" : 1602140039168,
+          "duration" : 11556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "/home", "Home_page_baseline" ]
+      }, {
+        "name" : "GUI Visual Testing [4]",
+        "uid" : "61889159c45fb89e",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140039169,
+          "stop" : 1602140044714,
+          "duration" : 5545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "/senchy", "Profile_page_baseline" ]
+      }, {
+        "name" : "GUI Visual Testing [5]",
+        "uid" : "610cc8336fa36afd",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140044715,
+          "stop" : 1602140050304,
+          "duration" : 5589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "/senchy/account", "Settings_page_baseline" ]
+      }, {
+        "name" : "UI validation [1]",
+        "uid" : "c1b16faf928d15f4",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140050305,
+          "stop" : 1602140055252,
+          "duration" : 4947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "e_nLus13su0ui_", "Project Management" ]
+      }, {
+        "name" : "UI validation [2]",
+        "uid" : "5da1e34072d671c0",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140055255,
+          "stop" : 1602140060357,
+          "duration" : 5102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "e_nLus13su0ui_", "Kanban Template" ]
+      }, {
+        "name" : "UI validation [3]",
+        "uid" : "19a0f2beb458b741",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140060359,
+          "stop" : 1602140064824,
+          "duration" : 4465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "e_nLus13su0ui_", "Simple Project Board" ]
+      }, {
+        "name" : "UI validation [4]",
+        "uid" : "1cc9b079227932a8",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140064826,
+          "stop" : 1602140069313,
+          "duration" : 4487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "e_nLus13su0ui_", "Remote Team Hub" ]
+      }, {
+        "name" : "UI validation [5]",
+        "uid" : "425e35743d089dc8",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140069314,
+          "stop" : 1602140074313,
+          "duration" : 4999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "board-tile-fade", "vividus" ]
+      }, {
+        "name" : "UI validation [6]",
+        "uid" : "63726a98f26a8f89",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140074314,
+          "stop" : 1602140077907,
+          "duration" : 3593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "board-tile mod-add", "Create new board" ]
+      }, {
+        "name" : "Adding a task in table using expressions",
+        "uid" : "8bb781105a78f145",
+        "parentUid" : "986a9d14959ded1a21b5360f2ada504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602140077909,
+          "stop" : 1602140084846,
+          "duration" : 6937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "986a9d14959ded1a21b5360f2ada504f"
+    } ],
+    "uid" : "87b8be25e9c9e007e80824e508a2043b"
+  } ]
+}
