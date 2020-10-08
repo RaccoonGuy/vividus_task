@@ -1,2 +1,8 @@
 {
+	"ElementsCount":
+	{
+		"type": "Internal",
+		"assertionPattern": "The elements to click.*",
+		"stepPattern": "When I click on all elements located.*"
+	}
 }

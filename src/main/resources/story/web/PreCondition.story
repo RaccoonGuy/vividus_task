@@ -2,7 +2,10 @@ Description: PreCondition
 
 Scenario: Log In
 Given I am on the main application page
-When I fill $Email and $Password in the Log In form
+When I fill <UEmail> and <UPassword> in the Log In form
+Examples:
+|UEmail						|UPassword				|
+|senchihinilua@mail.ru		|Drums_Or_N5088			|
 
 Scenario: API for vividus
 Given I am on the main application page
@@ -23,5 +26,3 @@ When I issue a HTTP POST request for a resource with the URL 'https://trello.com
 Then the response code is equal to '200'
 When I refresh the page
 Then field located `By.xpath(//span[@class="board-tile-fade"])` exists
-
-

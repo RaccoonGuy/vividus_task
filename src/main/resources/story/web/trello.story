@@ -42,3 +42,25 @@ When I click on all elements located `By.xpath(//span[@class="placeholder"])`
 When I enter `${task}` in field located `By.xpath(//input[@name='name'])`
 When I click on all elements located `By.xpath(//input[@value="Add List"])`
 Then field located `By.xpath(//textarea[text()="${task}"])` exists
+
+Scenario: Known issues
+Given I am on the main application page
+When I click on all elements located `By.xpath(//span[@class="pgEbaAFZBA0N5R"])`
+When I click on all elements located `By.xpath(//a[@data-test-id="header-member-menu-cards"])`
+
+Scenario: Visual check ignoring elements
+Given I am on the main application page
+When I ESTABLISH baseline with `Main_Ignore` ignoring:
+|ELEMENT										|AREA				|
+|By.xpath(//div[@class="content-all-boards"])	|					|
+
+Scenario: Deleting of table
+Given I am on the main application page
+When I click on element located `By.xpath(//ul[contains(.,'Create new board')]//div[text()="vividus"])`
+When I click on element located `By.xpath(//a[contains(.,'Show Menu')])`
+When I click on element located `By.xpath(//a[contains(text(),'More')])`
+When I click on element located `By.xpath(//a[contains(.,'Close Board')])`
+When I click on element located `By.xpath(//input[@value="Close"])`
+When I click on element located `By.xpath(//a[contains(.,'Permanently Delete Board')])`
+When I click on element located `By.xpath(//input[@value="Delete"])`
+
