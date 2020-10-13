@@ -3,6 +3,8 @@
 	{
 		"type": "Internal",
 		"assertionPattern": "The elements to click.*",
+		"storyPattern": "trello",
+		"scenarioPattern": "Known issues",
 		"stepPattern": "When I click on all elements located.*"
 	}
 }

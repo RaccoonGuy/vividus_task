@@ -5,7 +5,7 @@ GivenStories: story/web/PreCondition.story
 Scenario: GUI Visual Testing
 Given I am on the main application page
 When I go to the relative URL '<URL_path>'
-When I COMPARE_AGAINST baseline with `<baseline_img>`
+When I ${bline} baseline with `<baseline_img>`
 Examples:
 |URL_path		|baseline_img			|
 |/senchy/boards	|Boards_page_baseline	|
@@ -37,7 +37,7 @@ Examples:
 Scenario: Adding a task in table using expressions
 Given I am on the main application page
 When I click on element located `By.xpath(//ul[contains(.,'Create new board')]//div[text()="vividus"])`
-When I initialize the STORY variable `task` with value `#{generate(Witcher.quote)}`
+When I initialize the SCENARIO variable `task` with value `#{generate(Witcher.quote)}`
 When I click on all elements located `By.xpath(//span[@class="placeholder"])`
 When I enter `${task}` in field located `By.xpath(//input[@name='name'])`
 When I click on all elements located `By.xpath(//input[@value="Add List"])`
@@ -46,11 +46,10 @@ Then field located `By.xpath(//textarea[text()="${task}"])` exists
 Scenario: Known issues
 Given I am on the main application page
 When I click on all elements located `By.xpath(//span[@class="pgEbaAFZBA0N5R"])`
-When I click on all elements located `By.xpath(//a[@data-test-id="header-member-menu-cards"])`
 
 Scenario: Visual check ignoring elements
 Given I am on the main application page
-When I ESTABLISH baseline with `Main_Ignore` ignoring:
+When I ${bline} baseline with `Main_Ignore` ignoring:
 |ELEMENT										|AREA				|
 |By.xpath(//div[@class="content-all-boards"])	|					|
 
